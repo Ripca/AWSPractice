@@ -9,5 +9,5 @@ app.register_blueprint(users_bp)
 
 # Esto solo se ejecuta si corres app.py directamente (en desarrollo)
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)  # ← agregá debug=True
+    app.run(host='0.0.0.0', port=5000)  # ← agregá debug=True
  
