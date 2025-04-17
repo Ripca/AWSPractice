@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, request
 import requests
 
 auth_bp = Blueprint('auth', __name__)
-API_GATEWAY_URL = 'https://pptt3tilq1.execute-api.us-east-1.amazonaws.com/user'  # Sustituye con el real
+API_GATEWAY_URL = 'https://4x3ojau8ec.execute-api.us-east-1.amazonaws.com/user'  # Sustituye con el real
 
 @auth_bp.route('/')
 def login():
